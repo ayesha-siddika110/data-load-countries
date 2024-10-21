@@ -18,7 +18,11 @@ function App() {
   const handleMarkCounries= country =>{
     console.log('add to this country')
 
-    console.log(countries)
+    // markCountries.push(country)  //এখানে পুশ করা যাবে না
+
+    const newMarkCountries = [...markCountries, country]
+    setMark(newMarkCountries)
+
   }
 
 
@@ -26,7 +30,7 @@ function App() {
     <>
       
       <h1>load data all countries{countries.length}</h1>
-      <div>visited countries</div>
+      <div>visited countries {markCountries.length}</div>
       <div className='country-container'>
 
       {countries.map((country)=><Country handleMarkCounries={handleMarkCounries} key={countries.ccn3} country={country}></Country>)
