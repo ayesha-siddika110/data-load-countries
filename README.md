@@ -1,8 +1,18 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Project name
+- Countries Travel
 
-Currently, two official plugins are available:
+# Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-  Enjoy your life to travel different countries. there are 250 countries available to travel.  This site is very userfriendly. you can add which country you already traveled . 
+
+# technology
+
+- html
+- css
+- javaScript and ES6
+- react
+
+# live link
+ you can click here and go to the page: 
+  - []

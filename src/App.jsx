@@ -29,7 +29,7 @@ function App() {
   return (
     <>
       
-      <h1>load data all countries{countries.length}</h1>
+      <h1>load data from all countries{countries.length}</h1>
       <div>visited countries {markCountries.length}</div>
       <ul style={{display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', marginLeft: '10px'}}>
         {markCountries.map(country=>(
